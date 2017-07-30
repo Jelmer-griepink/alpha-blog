@@ -3,6 +3,10 @@ $navbar-default-bg: #5075b2;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.navbar.navbar-custom .navbar-nav > li > a {
+  color: #fff;
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
@@ -48,6 +52,15 @@ $navbar-default-bg: #5075b2;
 .btn-xlarge {
   font-size: 1.7em;
   background-color: #113370;
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
 }
 
 .footer {
